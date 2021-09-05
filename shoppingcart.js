@@ -10,15 +10,15 @@ class Product {
         this.category = product.category ?? 'default';
     }
 
-    get getName(){
+    get getName() {
         return this.name;
     }
 
-    get getId(){
+    get getId() {
         return this.id;
     }
 
-    get getPrice(){
+    get getPrice() {
         return this.price;
     }
 
@@ -133,7 +133,7 @@ class ShoppingCart {
         }
 
     }
-    clearCart(){
+    clearCart() {
         this.#products.length = 0;
     }
 }
